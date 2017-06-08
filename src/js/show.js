@@ -74,7 +74,7 @@ export default function (message, options) {
     newToast.style.opacity = 0;
 
     // Animate toast in
-    Velocity(newToast, {translateY: '-35px', opacity: 1}, {
+    Velocity(newToast, {translateY: '35px', opacity: 1}, {
         duration: 300,
         easing: 'easeOutCubic',
         queue: false
